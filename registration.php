@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+  <div class="indexcol">
+    <div class="row">
+      <div class="text-bg-dark p-3">
+        STUDENT REGISTRATION FORM
+      </div>
+</div>
+</div>
+    <form action="action_page.php">
+        <div class="container2">
+          
+          <img src="logo1.jpg" alt="Avatar" class="avatar1">
+          <hr class="hr1">
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+      
+          <label for="studentnum"><b>Student Number</b></label>
+          <p class="small"> Example: 20201591</p>
+          <input class="logininput" type="text" placeholder="Student Number" name="studentnum1" id="number" required>
+          
+      
+          <label for="lsn"><b>Lastname</b></label>
+          <p class="small"> Example: Dela Cruz</p>
+          <input class="logininput" type="text" placeholder="Enter Last Name" name="lastname1" id="lastname" required>
+      
+          <label for="fsn"><b>Firstname</b></label>
+          <p class="small"> Example: Juan</p>
+          <input class="logininput" type="text" placeholder="Enter First Name" name="firstname1" id="firstname" required>
+
+          <label for="fsn"><b>Date of birth</b></label>
+         <p  Example: class="small"> Example: 01/31/2001 (mm/dd/yyyy)</p>
+     
+          <input class="logininput" type="date" class="form-control ps1-1" autocomplete="off" required>
+          <hr>
+      
+          <button type="submit" class="registerbtn">Register</button>
+        </div>
+      
+        <div class="container signin">
+        <span>Login here!  <a href="login.php">Already have account?</a></span>
+        </div>
+      </form>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>               
+</body>
+</html>
